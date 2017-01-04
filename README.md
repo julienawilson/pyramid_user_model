@@ -1,2 +1,2 @@
 # pyramid_user_model
-A pyramid add that uses a user model to display the users data.
+A pyramid app that uses a user model to display the users data.
