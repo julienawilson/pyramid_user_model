@@ -1,0 +1,21 @@
+{% extends "layout.jinja2" %}
+
+{% block content %}
+<div> <h1>HEY WELCOME TO THE COOL SITE </h1>
+
+<div>
+    <ul>
+        <li>Your Username: {{ user['name'] }}</li>
+        <li>Your Name: {{ user['firstname'] }} {{ user['lastname'] }}</li>
+        <li>Your Favorite Food: {{ user['food'] }}</li>
+        <li>Your email: {{ user['email'] }}</li>
+        <li>Your password: JK</li>
+    </ul>
+
+</div>
+
+
+
+
+</div>
+{% endblock content %}
